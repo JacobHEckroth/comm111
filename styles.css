@@ -1,14 +1,28 @@
 body{
-	background-image:url("double-bubble-outline.png");
+	margin:0px;
+	background-color:#eeeeee;
 }
-h1{
-	display:inline;
-	background-color:white;
+h1.title{
+	margin-top:0px;
+	background-color:#71ada5;
+	color:white;
+	margin-bottom:0px;
 }
-h2{
-	display:inline;
-	background-color:white;
+.navlist{
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:white;
+	margin-top:0px;
+	display:grid;
+	grid-template-columns:repeat(3,auto) 1fr;
+	grid-column-gap:15px;
+	justify-items:left;
 }
+.navlist li{
+	list-style-type:none;
+}
+
 
 ul {
 	background-color:white;
@@ -17,10 +31,10 @@ ul {
 
 a:link{
 	text-decoration:none;
-	color:blue;
+	color:orange;
 }
 a:visited{
-	color:blue;
+	color:orange;
 }
 
 a:hover{
